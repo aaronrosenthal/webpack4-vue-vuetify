@@ -1,0 +1,47 @@
+{
+  "name": "webpack4-vue-vuetify",
+  "version": "1.0.0",
+  "description": "VueJs + Vuetify template using Webpack 4",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config build/webpack.config.prod.js",
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.config.dev.js",
+    "start": "npm run dev"
+  },
+  "author": "Aaron Rosenthal",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1",
+    "vuetify": "^1.0.10"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-vue": "^4.3.0",
+    "html-webpack-plugin": "^3.0.7",
+    "style-loader": "^0.20.3",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "url-loader": "^1.0.1",
+    "vue-loader": "^14.2.1",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1",
+    "webpack-merge": "^4.1.2"
+  }
+}
